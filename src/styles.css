@@ -1,0 +1,421 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~assets/css/styles.css";
+
+
+.textColorWhite {
+  color: #2f998c !important;
+
+}
+
+.page__content>.important-container {
+  align-items: normal !important;
+}
+
+.textColorWhite1 {
+  color: #fff !important;
+}
+
+table th {
+  vertical-align: middle;
+}
+
+.invert .navigation>ul>li>a.active-item {
+  color: #f7af08 !important;
+}
+
+.invert .navigation>ul>li>a.active-item .icon {
+  color: #f7af08 !important;
+}
+
+.invert .navigation>ul>li ul>li>a.active-item {
+  color: #f7af08 !important;
+}
+
+.invert .navigation ul>li>a.active-item:after {
+  background: #f7af08 !important;
+}
+
+
+.table thead th {
+  vertical-align: middle !important;
+}
+
+.mydp .selection {
+  padding: 9px 5px !important;
+}
+
+.mydp .selectiongroup {
+  border-spacing: 0px 5px !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-tab-nav-bar.mat-tab-header {
+  border: none !important;
+}
+
+.mat-tab-header {
+  border: none !important;
+}
+
+.mat-tab-header {
+  justify-content: center !important;
+  align-self: center !important;
+  align-content: center !important;
+}
+
+.mat-checkbox-ripple .mat-ripple-element,
+.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: rgb(47, 153, 139) !important;
+}
+
+mat-hint,
+mat-error {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  color: red !important;
+  padding-left: 0% !important;
+}
+
+
+.ngx-toastr {
+  width: 30rem !important;
+}
+
+.toast-warning {
+  background-color: #F78914 !important;
+}
+
+::ng-deep #mat-tab-label-0-1 {
+  color: #2f998c !important;
+}
+
+::ng-deep #mat-tab-label-0-0 {
+  color: #ec008d !important;
+}
+
+@media only screen and (min-width: 320px) {
+  .custom-file {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .placeHolder {
+    font-size: 10px;
+  }
+
+  .titleResponsive {
+    display: none;
+  }
+
+  .tabResponsiveStatus {
+    margin-top: 297.5% !important;
+  }
+
+  .headerButtons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tabResponsiveCredit {
+    margin-top: 106% !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 125% !important;
+  }
+
+  .transform1 {
+    margin-left: 0px !important;
+  }
+
+  .expandButton {
+    margin-left: 0px !important;
+  }
+
+  .printButton {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .flexColum {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .custom-file {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .placeHolder {
+    font-size: 10px;
+  }
+
+  .titleResponsive {
+    display: none;
+  }
+
+  .tabResponsiveStatus {
+    margin-top: 220% !important;
+  }
+
+  .tableButtons {
+    padding-bottom: 4%;
+  }
+
+  .expandButton,
+  .printButton {
+    margin-left: 0px !important;
+  }
+
+  .tabResponsiveCredit {
+    margin-top: 72% !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 84% !important;
+  }
+
+  .flexColum {
+    flex-direction: column !important;
+  }
+
+}
+
+@media only screen and (min-width: 425px) {
+  .custom-file {
+    margin-top: 3%;
+  }
+
+  .tabResponsiveStatus {
+    margin-top: 170% !important;
+  }
+
+  .tableButtons {
+    padding-bottom: 4%;
+  }
+
+  .tabResponsiveCredit {
+    margin-top: 52% !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 54% !important;
+  }
+
+  .flexColum {
+    flex-direction: column !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .titleResponsive {
+    display: block;
+  }
+
+  .tabResponsiveStatus {
+    margin-top: 11% !important;
+    overflow: auto !important;
+  }
+
+  .tableButtons {
+    padding-bottom: 3%;
+  }
+
+  .searchButton {
+    margin-top: 1.2% !important;
+  }
+
+  .headerButtons {
+    display: block;
+  }
+
+  .tabResponsiveCredit {
+    margin-top: 7% !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 10% !important;
+  }
+
+  .flexColum {
+    flex-direction: row !important;
+  }
+
+  .titleResponsive {
+    margin-top: 2.2%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tabResponsiveStatus {
+    margin-top: 8% !important;
+    overflow: hidden !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 10% !important;
+  }
+
+  .tableButtons {
+    padding-bottom: 3%;
+  }
+
+  .searchButton {
+    margin-top: 1.1% !important;
+  }
+
+  .flexColum {
+    flex-direction: row !important;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+  .tabResponsiveStatus {
+    margin-top: 8% !important;
+    overflow: hidden !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 10% !important;
+  }
+
+  .tableButtons {
+    padding-bottom: 3%;
+  }
+
+  .searchButton {
+    margin-top: 1.1% !important;
+  }
+
+  .flexColum {
+    flex-direction: column !important;
+  }
+
+}
+
+@media only screen and (min-width: 1320px) {
+  .tabResponsiveStatus {
+    overflow: hidden !important;
+  }
+
+  .flexColum {
+    flex-direction: column !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 8% !important;
+  }
+
+  .titleResponsive {
+    margin-top: 1.8%;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+  .custom-file {
+    margin-bottom: 2%;
+  }
+
+  .tabResponsiveStatus {
+    margin-top: 6% !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 8% !important;
+  }
+
+  .tableButtons {
+    padding-bottom: 1%;
+  }
+
+  .searchButton {
+    margin-top: 0.9% !important;
+  }
+
+  .flexColum {
+    flex-direction: column !important;
+  }
+
+  .titleResponsive {
+    margin-top: 1.2%;
+  }
+
+}
+
+@media only screen and (min-width: 2560px) {
+  .custom-file {
+    margin-bottom: 2%;
+  }
+
+  .tabResponsiveStatus {
+    margin-top: 2% !important;
+  }
+
+  .tabResponsiveCreditCard {
+    margin-top: 3% !important;
+  }
+
+  .titleResponsive h3 {
+    padding-top: 0.8% !important;
+  }
+
+  .tableButtons {
+    padding-bottom: 1%;
+  }
+
+  .flexColum {
+    flex-direction: column !important;
+  }
+
+  .titleResponsive {
+    margin-top: 0%;
+  }
+}
+
+.cards_filter_hide {
+  display: none;
+}
+
+
+/* .my-dialog {
+  z-index: 100000;
+}
+
+ngx-loading .loading-overlay {
+  z-index: 0;
+}
+
+.backdrop {
+  z-index: 0 !important;
+} */
+
+.page__content .navigation--minimized .navigation>ul>li>div .text, .page__content .page-aside--minimized .navigation>ul>li>div .hideText{
+
+  display: none;
+ }
+
+ .page__content .navigation--minimized .navigation>ul>li>div .icon, .page__content .page-aside--minimized .navigation>ul>li>div .icon{
+  margin: 5px;
+  float: none;
+  width: auto;
+  height: auto;
+ }

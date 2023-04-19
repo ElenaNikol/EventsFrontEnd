@@ -1,0 +1,61 @@
+{
+"pp30" :[
+    {
+        "nazivNalogoduvach1": "Ивана Димитровска",
+        "nazivNalogoduvach2": "Кратово",
+        "bankaNalogoduvach": "Централна Кооперативна Банка",
+        "celDoznaka1": "Уплата",
+        "celDoznaka2": "за школарина",
+        "povikuvanjeNaBrojZadolzuvanje": "12345",
+        "nazivPrimach1": "Стопанска Банка Битола",
+        "nazivPrimach2": "Стопанска Банка Битола",
+        "bankaPrimach": "Стопанска Банка Битола",
+        "iznos": "27000",
+        "povikuvanjeNaBrojOdobruvanje": "65498",
+        "shifra": "123",
+        "prioritet": "741852",
+        "smetkaNaPrimach": "1234567891011",
+        "nacin" : "2",
+        "datumValuta": "19.02.2019"
+        
+    }
+],
+"pp50" :[
+    {
+        "nazivNalogoduvach1": "Моника Петровска",
+        "nazivNalogoduvach2": "Tетово",
+        "bankaNalogoduvach": "TTK Банка",
+        "danocenBroj": "1902993475783",
+        "povikuvanjeNaBrojZadolzuvanje": "12345",
+        "celDoznaka1": "Рата",
+        "celDoznaka2": "за кредит",
+        "nazivPrimach1": "Стопанска Банка Битола",
+        "nazivPrimach2": "Стопанска Банка Битола",
+        "bankaPrimach": "Стопанска Банка Битола",
+        "iznos": "2500",
+        "uplatnaSmetka1": "65498",
+        "uplatnaSmetka2": "545454",
+        "uplatnaSmetka3": "345345345",
+        "smetkaNaKorisnik1": "123",
+        "smetkaNaKorisnik2": "4535343",
+        "smetkaNaKorisnik3": "345345345",
+        "prihodnaShifra": "741852",
+        "programa": "345345",
+        "prioritet": "23453",
+        "smetkaNaPrimach": "1234567891011"
+    }
+],
+"pp53" :[
+    {
+        "nazivNalogoduvach1": "Драга Ставреска",
+        "nazivNalogoduvach2": "Охрид",
+        "bankaNalogoduvach": "Охридска Банка",
+        "folioBroj": "1902993475783",
+        "danochenBroj": "1234567891011",
+        "datumValuta": "15.02.2019",
+        "vkupenBrojNalozi": "10",
+        "iznos": "3000",
+        "prioritet": "23453"
+    }
+]
+}

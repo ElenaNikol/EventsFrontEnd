@@ -1,0 +1,22 @@
+[
+    {
+        "redenBr": "1",
+        "datumTrs": "01.04.2019",
+        "opisTrs": "Уплата со траен налог",
+        "originalenIznos": "0",
+        "iznosMKD": "0",
+        "uplataVoDenari": "365",
+        "brKartichkaPAN": "",
+        "sostojba": "-19705"
+    },
+    {
+        "redenBr": "1",
+        "datumTrs": "01.04.2019",
+        "opisTrs": "Резолвинг камата",
+        "originalenIznos": "0",
+        "iznosMKD": "0",
+        "uplataVoDenari": "365",
+        "brKartichkaPAN": "",
+        "sostojba": "-19705"
+    }
+]

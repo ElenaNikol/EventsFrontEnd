@@ -1,0 +1,46 @@
+[
+    {
+        "datumKnizenje": "01.04.2019",
+        "datumValuta": "01.04.2019",
+        "opis": "КАМАТА",
+        "valuta": "807",
+        "dolziValuta": "0",
+        "pobaruvaValuta": "0",
+        "sostojbaValuta": "51842",
+        "brRed": "1",
+        "datum": "31.03.2019"
+    },
+    {
+        "datumKnizenje": "01.04.2019",
+        "datumValuta": "01.04.2019",
+        "opis": "Пренос на камата на транс.сметкa",
+        "valuta": "807",
+        "dolziValuta": "0",
+        "pobaruvaValuta": "0",
+        "sostojbaValuta": "51842",
+        "brRed": "1",
+        "datum": "31.03.2019"
+    },
+    {
+        "datumKnizenje": "01.04.2019",
+        "datumValuta": "01.04.2019",
+        "opis": "Пренос на камата на транс.сметкa",
+        "valuta": "807",
+        "dolziValuta": "0",
+        "pobaruvaValuta": "0",
+        "sostojbaValuta": "51842",
+        "brRed": "1",
+        "datum": "31.03.2019"
+    },
+    {
+        "datumKnizenje": "01.04.2019",
+        "datumValuta": "01.04.2019",
+        "opis": "Почетна состојба",
+        "valuta": "807",
+        "dolziValuta": "0",
+        "pobaruvaValuta": "0",
+        "sostojbaValuta": "51842",
+        "brRed": "1",
+        "datum": "31.03.2019"
+    }
+]
