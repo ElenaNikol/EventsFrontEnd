@@ -1,0 +1,115 @@
+<app-header></app-header>
+<div class="banner">
+    <div class="row banner-inner">
+        <div class="col-md-6 banner-inner-purple">
+            <ul class="ulLeftBanner">
+                <li>
+                    <div class="logoFestival"></div>
+                </li>
+                <li>Д ФЕСТИВАЛ 2023</li>
+                <li>Најочекуваниот летен фестивалски викенд – Д ФЕСТИВАЛ со нова лимитирана промо-акција!</li>
+                <li>Оваа година единствената музичка авантура ќе се одржи по тринаесети пат од 30 јуни до 2 јули.</li>
+                <li><button class="buttonClick ">Купи карта</button></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+        </div>
+    </div>
+</div>
+
+<div class="searchFilter">
+    <div class="addBorder"> 
+        <mat-form-field class="example-full-width"  style="margin: auto; width: 90%;">
+            <mat-label>Внеси име на настан, сала или артист... </mat-label>
+            <input cl matInput  value="">
+        </mat-form-field></div>
+    <div class="addBorder">
+        <mat-form-field appearance="fill" style="margin: auto; width: 90%;">
+            <mat-label>Категорија</mat-label>
+            <select matNativeControl required>
+                <option value="volvo">Сите</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </mat-form-field>
+    </div>
+    <div class="addBorder">
+        <mat-form-field appearance="fill" style="margin: auto; width: 90%;">
+            <div class="test">
+            <mat-label>Внеси датум</mat-label>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        </div>
+            <mat-date-range-input [formGroup]="range" [rangePicker]="picker">
+                <input matStartDate formControlName="start" placeholder="Почетен датум">
+                <input matEndDate formControlName="end" placeholder="Краен датум">
+            </mat-date-range-input>
+           
+            <mat-date-range-picker #picker></mat-date-range-picker>
+
+            <mat-error *ngIf="range.controls.start.hasError('matStartDateInvalid')">Невалиден почетен датум</mat-error>
+            <mat-error *ngIf="range.controls.end.hasError('matEndDateInvalid')">Невалиден краен датум</mat-error>
+        </mat-form-field>
+    </div>
+    <div><button class="buttonClick ">Купи карта</button></div>
+</div>
+
+<div class="eventField">
+
+    <div class="closeEvents">
+        <div><p class="labelName">Претстојни настани</p></div>
+        <div class="lineEvents"></div>
+        <div class="events">
+            <div>
+                <div class="transperantBackground">
+                    <div class="eventDateOverlay">
+                        <div class="eventDateOverlayText">
+                        <p>06 jul</p>
+                        </div>
+                    </div>
+                    <div class="eventTextField">
+                        <div class="eventTextOverlay">
+                            <p>Exit Festival</p>
+                            <p>Нови Сад, Србија</p>
+                            <p>06-09 јули</p>
+                        </div>
+                        <div class="iconHeart">
+                            <i class="fa fa-heart-o"></i>
+                            <i class="fa fa-heart"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="transperantBackground"></div>
+            </div>
+            <div>
+                <div class="transperantBackground"></div>
+            </div>
+
+
+            <i class="fa fa-chevron-circle-right circleRight" aria-hidden="true"></i>
+
+
+        </div>
+    </div>
+    <div class="popularEvents">
+        <div><p class="labelName">Популарни настани</p></div>
+        <div class="lineEvents"></div>
+        <div class="events">
+            <div>
+                <div class="transperantBackground"></div>
+            </div>
+            <div>
+                <div class="transperantBackground"></div>
+            </div>
+            <div>
+                <div class="transperantBackground"></div>
+            </div>
+
+            <i class="fa fa-chevron-circle-right circleRight" aria-hidden="true"></i>
+        </div>
+    </div>
+
+</div>
+
+<app-footer></app-footer>

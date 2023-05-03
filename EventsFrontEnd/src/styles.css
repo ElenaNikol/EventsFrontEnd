@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+.buttonClick{
+    background: #FFC212;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    margin-top: 10%;
+    color: #191D23;
+    border: none;
+}
+
+.buttonClick:hover{
+    background-color: #dea500;
+    padding: 20px 36px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

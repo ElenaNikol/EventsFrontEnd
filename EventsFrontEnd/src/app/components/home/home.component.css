@@ -1,0 +1,214 @@
+.banner{
+    
+    background-image: url(src/assets/images/banner-bg.jpg);
+    height: 753px;
+    background-position: center;
+    background-color: purple;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.banner-inner{
+    height: -webkit-fill-available;
+    width: 78%;
+    margin: auto;
+}
+
+.banner-inner-purple{
+    background: rgba(70, 70, 122, 0.6);
+}
+
+.logoFestival{
+   background-image: url(src/assets/images/logo-eng.png);
+   width: 302px;
+   height: 133px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.ulLeftBanner{
+    list-style: none;
+    margin-top: 13%;
+    width: 82%;
+}
+
+.ulLeftBanner>li{
+    margin-top: 3%;
+    color: white;
+    padding-bottom: 2%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ulLeftBanner>li:first-child{
+  padding-bottom: 10% !important;
+}
+
+.searchFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 24px;
+
+    width: 80%;
+    height: 101px;
+    /* Shades/White */
+    background: #FFFFFF;
+    border-radius: 48px;
+    margin-top: -48px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eventField{
+    margin-top: -2.5%;
+}
+
+.searchFilter > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 303.89px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    
+}
+
+.addBorder{
+    border-right: 2px solid #D0D5DD;
+}
+
+label{
+    color: #191D23;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.lineEvents{
+    width: 1202px;
+    height: 0px;
+    left: 134px;
+    top: 149px;
+
+    border: 1px solid rgba(224, 223, 253, 0.85);
+    transform: rotate(-0.1deg);
+}
+
+.closeEvents{
+    background: #46467A;
+    padding: 8% 6% 3% 8%;
+}
+
+.popularEvents{
+    background: #46467A;
+
+    padding: 1% 6% 5% 8%;
+}
+
+.events{
+    height: 300px;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.events > div{
+    background-color: black;
+    width: 100%;
+    margin-right: 5%;
+    background-image: url(src/assets/images/exit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.labelName{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #E0DFFD;
+
+}
+
+.transperantBackground{
+    background: rgba(224, 223, 253, 0.65);
+    height: 50%;
+}
+
+.eventDateOverlay{
+    width: 86px;
+    height: 87px;
+    background: #E8E7F5;
+    border-radius: 30px;
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.eventDateOverlayText{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    color: #191D23;
+    width: 36%;
+    margin: auto;
+    margin-top: 5;
+    padding-top: 11%;
+}
+
+.eventTextField{
+    display: flex;
+}
+
+.eventTextOverlay{
+    width: 73%;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
+.eventTextOverlay > p{
+    margin-bottom: -0.1rem;
+    font-size: larger;
+}
+
+.iconHeart{
+    margin: auto;
+    font-size: 44px;
+    margin-right: 10%;
+    margin-top: 5%;
+    color: #001A72;
+}
+
+
+.iconHeart:hover .fa-heart-o,
+.iconHeart .fa-heart{
+    display: none;
+}
+
+.iconHeart:hover .fa-heart {
+    display: inline;
+}
+
+.circleRight{
+    margin: auto;
+    font-size: 57px;
+}

@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #C6C5F1!important;
+    position: sticky!important; 
+    height: 88px!important;
+    left: 0px!important;
+    top: 0px!important;
+    z-index: 999!important;
+}
+
+.container-fluid{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav-item{
+    padding-right: 15px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 400;
+}
+
+.nav-link:hover , .active{
+    color: white !important;
+    background-color: #FFC212 !important;
+    border-radius: 50px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    font-weight: 500!important;
+}
+
+.iconHeart>i{
+    font-size: 24px !important;
+}
+
+.iconHeart:hover{
+    color: black !important;
+    background-color: transparent !important;
+    border-radius: none !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.iconHeart:hover .fa-heart-o,
+.iconHeart .fa-heart{
+    display: none;
+}
+
+.iconHeart:hover .fa-heart {
+    display: inline;
+}
